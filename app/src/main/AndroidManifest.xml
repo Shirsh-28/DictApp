@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dict2">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dict2">
-        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".Dashboard" />
         <activity android:name=".SignUp" />
         <activity android:name=".MainActivity">
             <intent-filter>
