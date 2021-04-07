@@ -11,19 +11,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This is Dashboard"/>
+
+    <Button
+        android:id="@+id/dict"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Use quick Dictionary"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/google"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="search on Google"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/wiki"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Use wikipedia"
+        android:textAllCaps="false"/>
     <Button
         android:id="@+id/logout"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="60dp"
         android:text="Logout"
-        android:textAllCaps="false"/>
-    <Button
-        android:id="@+id/dict"
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="60dp"
-        android:text="Use Dictionary"
         android:textAllCaps="false"/>
 
 </LinearLayout>
