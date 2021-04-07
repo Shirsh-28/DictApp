@@ -13,13 +13,18 @@
         android:text="Welcome to our app"
         android:textSize="32dp"
         android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dict"
+        android:layout_gravity="center"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
         android:layout_gravity="fill_vertical"
-        android:layout_marginTop="200dp">
+        android:layout_marginTop="3dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -28,6 +33,7 @@
             android:text="Enter Email" />
 
         <EditText
+            android:layout_marginLeft="25dp"
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +57,7 @@
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="12345"
+            android:hint="abc123"
             android:inputType="textPassword"/>
     </LinearLayout>
     <Button
@@ -65,6 +71,8 @@
 
 
     <TextView
+        android:textColor="@color/r"
+        android:textSize="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Not a Member? Register Now"
@@ -75,6 +83,9 @@
 
 
     <TextView
+        android:background="@color/tor"
+        android:textColor="@color/black"
+        android:textSize="30dp"
         android:id="@+id/signUpTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

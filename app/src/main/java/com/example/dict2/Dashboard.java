@@ -14,6 +14,7 @@ private Button Logout;
 private Button btn1;
 private Button Google;
 private Button Wiki;
+private Button Ox;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ private Button Wiki;
         Google = findViewById(R.id.google);
         Logout = findViewById(R.id.logout);
         Wiki = findViewById(R.id.wiki);
+        Ox = findViewById(R.id.ox);
         Logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,6 +55,14 @@ private Button Wiki;
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Dashboard.this,MainActivity4.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        Ox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this,MainActivity5.class);
                 startActivity(intent);
                 finish();
             }

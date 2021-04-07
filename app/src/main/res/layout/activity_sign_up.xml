@@ -5,20 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUp"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/signup"
+    android:layout_gravity="center"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginTop="200dp">
+        android:layout_marginTop="30dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Enter email"
             android:layout_marginLeft="16dp"></TextView>
         <EditText
+            android:layout_marginLeft="51dp"
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,6 +42,7 @@
             android:text="Enter password"
             android:layout_marginLeft="16dp"></TextView>
         <EditText
+            android:hint="Not all numbers"
             android:inputType="textPassword"
             android:id="@+id/password1"
             android:layout_width="match_parent"
@@ -57,6 +63,7 @@
             android:layout_marginLeft="16dp"
             ></TextView>
         <EditText
+            android:layout_marginLeft="10dp"
             android:inputType="textPassword"
             android:id="@+id/password2"
             android:layout_width="match_parent"
@@ -69,16 +76,21 @@
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Confirm Registration"
+        android:text="Sign Up"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"></Button>
     <TextView
+        android:textColor="@color/r"
+        android:textSize="25dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already a member?"/>
     <TextView
+        android:background="@color/tor"
+        android:textColor="@color/black"
+        android:textSize="30dp"
         android:layout_gravity="center"
         android:id="@+id/signInTv"
         android:layout_width="wrap_content"
